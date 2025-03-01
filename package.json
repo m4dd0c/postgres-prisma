@@ -1,0 +1,24 @@
+{
+  "name": "postgres_sql",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "npx nodemon",
+    "start": "node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.8",
+    "prisma": "^6.4.1",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.4.1",
+    "express": "^4.21.2"
+  }
+}
